@@ -8,6 +8,8 @@
 9 */
 function getRandomInt(min, max) {
   // write your code here & return value
+  // eslint-disable-next-line no-plusplus
+  return Math.floor(Math.random() * (max - min)) + min;
 }
 
 export default getRandomInt;
